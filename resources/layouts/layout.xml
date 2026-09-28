@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+    layout.xml — Watch face layout for SaikiWatchFace
+    Screen: 416×416 round AMOLED (Forerunner 265)
+
+    Background bitmaps are drawn programmatically in onUpdate() via
+    dc.drawBitmap(), so the layout only needs a root container here.
+    Time and date text are also drawn programmatically.
+-->
+<layout id="WatchFaceLayout">
+</layout>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--
+    strings.xml — String resources for SaikiWatchFace
+-->
+<strings>
+    <string id="AppName" scope="foreground">齐木楠雄表盘</string>
+</strings>

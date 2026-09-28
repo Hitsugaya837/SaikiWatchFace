@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+    drawables.xml — Bitmap resource definitions for SaikiWatchFace
+    Each theme bitmap is 416×416 PNG, matching the Forerunner 265 screen.
+    Images are stored in resources/drawables/images/
+-->
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <!-- 清晨睡醒 05:00–10:59 -->
+    <bitmap id="theme_morning"
+            filename="images/theme_morning.png"
+            dithering="none" />
+
+    <!-- 正午用餐 11:00–13:59 -->
+    <bitmap id="theme_noon"
+            filename="images/theme_noon.png"
+            dithering="none" />
+
+    <!-- 下午学习/工作 14:00–17:59 -->
+    <bitmap id="theme_afternoon"
+            filename="images/theme_afternoon.png"
+            dithering="none" />
+
+    <!-- 夜间休憩 18:00–04:59 -->
+    <bitmap id="theme_night"
+            filename="images/theme_night.png"
+            dithering="none" />
+
+    <!-- 启动器图标（表盘选择列表） -->
+    <bitmap id="LauncherIcon"
+            filename="images/launcher_icon.svg"
+            dithering="none" />
+
+</resources>

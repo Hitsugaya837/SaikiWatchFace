@@ -1,0 +1,17 @@
+# Build output
+*.prg
+*.prg.debug.xml
+bin/
+
+# Build cache / compiler intermediates
+gen/
+internal-mir/
+external-mir/
+
+# Developer signing key - never commit
+developer_key.der
+
+# IDE / OS
+.vscode/
+Thumbs.db
+.DS_Store
